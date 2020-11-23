@@ -1,0 +1,87 @@
+/*https://www.youtube.com/watch?time_continue=277&v=HtWIrGqbEwI*/
+#cabecera {
+	background-color: #4a91be;
+	abodCer: rgba(0, 0, 0, 0) solid 5px;
+	font-size: 28px;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+	display: block;
+	awidth: 100%;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+#subcabecera {
+	background-color: #c9ff37;
+	aborder: rgba(0, 0, 0, 0) solid 5px;
+	text-align: center;
+	height: 80px;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	line-height: 100px;
+	aheight: 100px;
+	margin-bottom: 20px;
+}
+
+
+#bloque {
+	background-color: #2aa53d;
+	border: rgba(0, 0, 0, 0) solid 5px;
+	text-align: center;
+	adisplay: inline-block;
+	width: 66.6666%;
+	float: left;
+	line-height: 800px;
+	aheight: 800px;
+	box-sizing: border-box;
+}
+
+#bloqueD {
+	background-color: #963b3b;
+	border: rgba(0, 0, 0, 0) solid 5px;
+	text-align: center;
+	adisplay: inline-block;
+	width: 33.3333%;
+	Float: left;
+	line-height: 800px;
+	aheight: 800px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+
+}
+
+#pie {
+	background-color: #4a91be;
+	aborder: rgba(0, 0, 0, 0) solid 5px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 100px;
+	aheight: 100px;
+	clear: both
+}
+
+.contenedor {
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #898989
+}
+
+body {
+	background-repeat: repeat-x;
+	
+}
+
+
+@media screen and (max-width: 800px) {
+	#bloque {
+		width: 100%;
+	}
+
+	#bloqueD {
+		width: 100%
+	}
+
+
+}
